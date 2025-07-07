@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import { Zap, Settings2, Sparkles } from "lucide-react";
+import { Presentation, Settings2, Sparkles, Zap } from "lucide-react";
 import { ReactNode } from "react";
 
 export default function Features() {
@@ -18,7 +18,7 @@ export default function Features() {
           <Card className="group shadow-zinc-950/5">
             <CardHeader className="pb-3">
               <CardDecorator>
-                <Zap className="size-6" aria-hidden />
+                <Presentation className="size-6" aria-hidden />
               </CardDecorator>
 
               <h3 className="mt-6 font-medium">Paper Presentation</h3>

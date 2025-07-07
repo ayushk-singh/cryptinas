@@ -3,7 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
 
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -15,8 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Create Next App",
-  description: "Your No BS Event Management App",
+  title: "Cryptinas",
+  description:
+    "National Level Technical Symposium by Department of Computer Applications (UG) - Hindusthan College of Arts & Science, Coimbatore",
 };
 
 export default function RootLayout({

@@ -1,5 +1,5 @@
-import ContentSection from "@/components/content-3";
-import Features from "@/components/features-1";
+import ContentSection from "@/components/content";
+import Features from "@/components/feature";
 import Footer from "@/components/footer";
 import HeroSection from "@/components/hero-section";
 import TeamSection from "@/components/team";
